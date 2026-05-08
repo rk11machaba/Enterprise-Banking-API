@@ -19,6 +19,14 @@ public class ApplicationDbContext : DbContext
     {
         base.OnModelCreating(modelBuilder);
 
+        modelBuilder.Entity<BankAccount>()
+            .Property(b => b.Balance)
+            .HasPrecision(18, 2);
+
+        modelBuilder.Entity<Transaction>()
+            .Property(t => t.Amount)
+            .HasPrecision(18, 2);
+
         modelBuilder.Entity<Transaction>()
             .HasOne(t => t.FromAccount)
             .WithMany(a => a.SentTransactions)
