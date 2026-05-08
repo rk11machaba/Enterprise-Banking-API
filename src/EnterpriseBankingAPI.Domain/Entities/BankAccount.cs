@@ -1,0 +1,24 @@
+using System.Reflection.Metadata;
+using System.Transactions;
+using EnterpriseBankingAPI.Domain.Common;
+using EnterpriseBankingAPI.Domain.Entities;
+
+namespace EnterpriseBankingAPI.Domain.Entities;
+
+public class BankAccount : BaseEntity
+{
+    public string AccountNumber { get; set; } = string.Empty;
+
+    public decimal Balance { get; set; }
+
+    public string Currency { get; set; } = "ZAR";
+
+    public bool IsActive { get; set; } = true;
+
+    public Guid UserId { get; set; }
+
+    public User User { get; set; } = null;
+
+    public ICollection<Transaction> Transactions { get; set; } = new List<Transaction>();
+    
+}
