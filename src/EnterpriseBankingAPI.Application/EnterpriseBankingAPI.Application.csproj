@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\EnterpriseBanikingAPI.Domain\EnterpriseBanikingAPI.Domain.csproj" />
+    <ProjectReference Include="..\EnterprisebankingAPI.Domain\EnterprisebankingAPI.Domain.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

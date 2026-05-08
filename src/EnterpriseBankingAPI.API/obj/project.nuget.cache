@@ -1,11 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "WNov/6ZBL5o=",
+  "dgSpecHash": "/Pfz71f1vxw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Macha\\OneDrive\\Documents\\machabakaizer\\C# Projects\\Enterprise Banking API\\EnterpriseBankingAPI.API\\EnterpriseBankingAPI.API.csproj",
+  "projectFilePath": "C:\\Users\\Macha\\OneDrive\\Documents\\machabakaizer\\C# Projects\\Enterprise Banking API\\src\\EnterpriseBankingAPI.API\\EnterpriseBankingAPI.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Macha\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.5\\microsoft.aspnetcore.openapi.9.0.5.nupkg.sha512",
-    "C:\\Users\\Macha\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+    "C:\\Users\\Macha\\.nuget\\packages\\microsoft.extensions.apidescription.server\\9.0.0\\microsoft.extensions.apidescription.server.9.0.0.nupkg.sha512",
+    "C:\\Users\\Macha\\.nuget\\packages\\microsoft.openapi\\2.4.1\\microsoft.openapi.2.4.1.nupkg.sha512",
+    "C:\\Users\\Macha\\.nuget\\packages\\swashbuckle.aspnetcore\\10.1.7\\swashbuckle.aspnetcore.10.1.7.nupkg.sha512",
+    "C:\\Users\\Macha\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.1.7\\swashbuckle.aspnetcore.swagger.10.1.7.nupkg.sha512",
+    "C:\\Users\\Macha\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.1.7\\swashbuckle.aspnetcore.swaggergen.10.1.7.nupkg.sha512",
+    "C:\\Users\\Macha\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.1.7\\swashbuckle.aspnetcore.swaggerui.10.1.7.nupkg.sha512",
+    "C:\\Users\\Macha\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512"
   ],
   "logs": []
 }
