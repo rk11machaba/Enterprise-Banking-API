@@ -1,9 +1,5 @@
-using System.Dynamic;
-using System.Reflection.Metadata;
-using System.Transactions;
-using EnterpriseBankingAPI.Domain.Common;
-using EnterpriseBankingAPI.Infrastructure.Persistence;
-using  Microsoft.EntityFrameworkCore;
+using EnterpriseBankingAPI.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace EnterpriseBankingAPI.Infrastructure.Persistence;
 
@@ -27,12 +23,12 @@ public class ApplicationDbContext : DbContext
             .HasOne(t => t.FromAccount)
             .WithMany(a => a.SentTransactions)
             .HasForeignKey(t => t.FromAccountId)
-            .OneDelete(DeleteBehavior.Restrict);
+            .OnDelete(DeleteBehavior.Restrict);
 
         modelBuilder.Entity<Transaction>()
             .HasOne(t => t.ToAccount)
             .WithMany(a => a.ReceivedTransactions)
             .HasForeignKey(t => t.ToAccountId)
-            .OneDelete(DeleteBehavior.Restrict);
+            .OnDelete(DeleteBehavior.Restrict);
     }
 }

@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v9.0": {
-      "EnterpriseBankingAPI.Domain/1.0.0": {
+      "EnterprisebankingAPI.Domain/1.0.0": {
         "runtime": {
-          "EnterpriseBankingAPI.Domain.dll": {}
+          "EnterprisebankingAPI.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "EnterpriseBankingAPI.Domain/1.0.0": {
+    "EnterprisebankingAPI.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

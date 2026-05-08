@@ -19,6 +19,8 @@ public class BankAccount : BaseEntity
 
     public User User { get; set; } = null;
 
-    public ICollection<Transaction> Transactions { get; set; } = new List<Transaction>();
-    
+    public ICollection<Transaction> SentTransactions { get; set; } = new List<Transaction>();
+
+    public ICollection<Transaction> ReceivedTransactions { get; set; } = new List<Transaction>();
+
 }
