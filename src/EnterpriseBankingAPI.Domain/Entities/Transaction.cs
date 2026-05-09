@@ -1,4 +1,5 @@
 using EnterpriseBankingAPI.Domain.Common;
+using EnterpriseBankingAPI.Domain.Enums;
 
 namespace EnterpriseBankingAPI.Domain.Entities;
 
@@ -16,6 +17,6 @@ public class Transaction : BaseEntity
 
     public string Reference { get; set; } = string.Empty;
 
-    public TransactionType TransactionType { get; set; } = string.Empty;
+    public TransactionType TransactionType { get; set; }
     
 }
