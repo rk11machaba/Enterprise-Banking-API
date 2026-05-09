@@ -3,9 +3,9 @@ C:\Users\Macha\OneDrive\Documents\machabakaizer\C# Projects\Enterprise Banking A
 C:\Users\Macha\OneDrive\Documents\machabakaizer\C# Projects\Enterprise Banking API\src\EnterpriseBankingAPI.Infrastructure\bin\Debug\net9.0\EnterpriseBankingAPI.Infrastructure.dll
 C:\Users\Macha\OneDrive\Documents\machabakaizer\C# Projects\Enterprise Banking API\src\EnterpriseBankingAPI.Infrastructure\bin\Debug\net9.0\EnterpriseBankingAPI.Infrastructure.pdb
 C:\Users\Macha\OneDrive\Documents\machabakaizer\C# Projects\Enterprise Banking API\src\EnterpriseBankingAPI.Infrastructure\bin\Debug\net9.0\EnterpriseBankingAPI.Application.dll
-C:\Users\Macha\OneDrive\Documents\machabakaizer\C# Projects\Enterprise Banking API\src\EnterpriseBankingAPI.Infrastructure\bin\Debug\net9.0\EnterpriseBankingAPI.Domain.dll
+C:\Users\Macha\OneDrive\Documents\machabakaizer\C# Projects\Enterprise Banking API\src\EnterpriseBankingAPI.Infrastructure\bin\Debug\net9.0\EnterprisebankingAPI.Domain.dll
 C:\Users\Macha\OneDrive\Documents\machabakaizer\C# Projects\Enterprise Banking API\src\EnterpriseBankingAPI.Infrastructure\bin\Debug\net9.0\EnterpriseBankingAPI.Application.pdb
-C:\Users\Macha\OneDrive\Documents\machabakaizer\C# Projects\Enterprise Banking API\src\EnterpriseBankingAPI.Infrastructure\bin\Debug\net9.0\EnterpriseBankingAPI.Domain.pdb
+C:\Users\Macha\OneDrive\Documents\machabakaizer\C# Projects\Enterprise Banking API\src\EnterpriseBankingAPI.Infrastructure\bin\Debug\net9.0\EnterprisebankingAPI.Domain.pdb
 C:\Users\Macha\OneDrive\Documents\machabakaizer\C# Projects\Enterprise Banking API\src\EnterpriseBankingAPI.Infrastructure\obj\Debug\net9.0\EnterpriseBankingAPI.Infrastructure.csproj.AssemblyReference.cache
 C:\Users\Macha\OneDrive\Documents\machabakaizer\C# Projects\Enterprise Banking API\src\EnterpriseBankingAPI.Infrastructure\obj\Debug\net9.0\EnterpriseBankingAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Macha\OneDrive\Documents\machabakaizer\C# Projects\Enterprise Banking API\src\EnterpriseBankingAPI.Infrastructure\obj\Debug\net9.0\EnterpriseBankingAPI.Infrastructure.AssemblyInfoInputs.cache

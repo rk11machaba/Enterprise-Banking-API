@@ -16,8 +16,9 @@
       },
       "EnterprisebankingAPI.Domain/1.0.0": {
         "runtime": {
-          "EnterpriseBankingAPI.Domain.dll": {
-            "fileVersion": "0.0.0.0"
+          "EnterprisebankingAPI.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       }
