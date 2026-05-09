@@ -1,4 +1,5 @@
 using EnterpriseBankingAPI.Domain.Common;
+using EnterpriseBankingAPI.Domain.Enums;
 
 namespace EnterpriseBankingAPI.Domain.Entities;
 
@@ -10,7 +11,7 @@ public class User : BaseEntity
 
     public string PasswordHash { get; set; } = string.Empty;
 
-    public string Role { get; set;} = "Customer";
+    public UserRole Role { get; set; } = UserRole.Customer;
 
     public ICollection<BankAccount> BankAccounts { get; set; } = new List<BankAccount>();
     

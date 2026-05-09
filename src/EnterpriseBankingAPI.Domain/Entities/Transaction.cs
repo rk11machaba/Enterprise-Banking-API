@@ -6,7 +6,7 @@ public class Transaction : BaseEntity
 {
     public Guid FromAccountId { get; set; }
     
-    public BankAccount FromAccount { get; set; } = null;
+    public BankAccount FromAccount { get; set; } = null!;
 
     public Guid ToAccountId { get; set; }
 
@@ -16,6 +16,6 @@ public class Transaction : BaseEntity
 
     public string Reference { get; set; } = string.Empty;
 
-    public string TransactionType { get; set; } = string.Empty;
+    public TransactionType TransactionType { get; set; } = string.Empty;
     
 }

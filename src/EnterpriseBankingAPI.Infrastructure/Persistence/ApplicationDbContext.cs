@@ -19,9 +19,19 @@ public class ApplicationDbContext : DbContext
     {
         base.OnModelCreating(modelBuilder);
 
+        modelBuilder.Entity<User>()
+            .HasIndex(u => u.Email)
+            .IsUnique();
+
         modelBuilder.Entity<BankAccount>()
-            .Property(b => b.Balance)
-            .HasPrecision(18, 2);
+            .HasIndex(b => b.AccountNumber)
+            .IsUnique();
+
+        modelBuilder.Entity<BankAccount>()
+            .HasOne(b => b.User)
+            .WithMany(u => u.BankAccounts)
+            .HasForeignKey(b => b.UserId)
+            .OnDelete(DeleteBehavior.Restrict);
 
         modelBuilder.Entity<Transaction>()
             .Property(t => t.Amount)
@@ -38,5 +48,10 @@ public class ApplicationDbContext : DbContext
             .WithMany(a => a.ReceivedTransactions)
             .HasForeignKey(t => t.ToAccountId)
             .OnDelete(DeleteBehavior.Restrict);
+
+        modelBuilder.Entity<User>()
+            .HasIndex(u => u.Email)
+            .IsUnique();
+
     }
 }

@@ -1,5 +1,3 @@
-using System.Reflection.Metadata;
-using System.Transactions;
 using EnterpriseBankingAPI.Domain.Common;
 using EnterpriseBankingAPI.Domain.Entities;
 
@@ -17,7 +15,7 @@ public class BankAccount : BaseEntity
 
     public Guid UserId { get; set; }
 
-    public User User { get; set; } = null;
+    public User User { get; set; } = null!;
 
     public ICollection<Transaction> SentTransactions { get; set; } = new List<Transaction>();
 
