@@ -11,7 +11,7 @@ public class Transaction : BaseEntity
 
     public Guid ToAccountId { get; set; }
 
-    public BankAccount ToAccount { get; set; } = null;
+    public BankAccount ToAccount { get; set; } = null!;
 
     public decimal Amount { get; set; }
 
